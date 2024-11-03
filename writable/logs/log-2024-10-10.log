@@ -1,0 +1,80 @@
+CRITICAL - 2024-10-10 13:00:33 --> TypeError: Unsupported operand types: string * string
+[Method: POST, Route: keranjang/tambah]
+in APPPATH\Controllers\Coba.php on line 97.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->beli()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-10 13:19:08 --> ErrorException: Undefined variable $data
+[Method: POST, Route: keranjang/tambah]
+in APPPATH\Models\keranjang.php on line 31.
+ 1 APPPATH\Models\keranjang.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ecommerce\\app\\Models\\keranjang.php', 31)
+ 2 APPPATH\Controllers\Coba.php(102): App\Models\keranjang->savebeli([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->beli()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+ERROR - 2024-10-10 13:21:20 --> mysqli_sql_exception: Unknown column 'idpord' in 'field list' in C:\xampp\htdocs\ecommerce\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `be...', 0)
+#1 C:\xampp\htdocs\ecommerce\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `be...')
+#2 C:\xampp\htdocs\ecommerce\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `be...')
+#3 C:\xampp\htdocs\ecommerce\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `be...', Array, false)
+#4 C:\xampp\htdocs\ecommerce\app\Models\keranjang.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ecommerce\app\Controllers\Coba.php(102): App\Models\keranjang->savebeli(Array)
+#6 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(933): App\Controllers\Coba->beli()
+#7 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+#8 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ecommerce\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ecommerce\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\ecommerce\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\ecommerce\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-10-10 13:21:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'idpord' in 'field list'
+[Method: POST, Route: keranjang/tambah]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `beli` (`user`, `produk`, `ukuran`, `warna`, `images`, `idpord`, `harga`, `jumlah`, `total`) VALUES (:user:, :produk:, :ukuran:, :warna:, :images:, :idpord:, :harga:, :jumlah:, :total:)', [...], false)
+ 2 APPPATH\Models\keranjang.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Coba.php(102): App\Models\keranjang->savebeli([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->beli()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-10 13:21:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'idpord' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `beli` (`user`, `produk`, `ukuran`, `warna`, `images`, `idpord`, `harga`, `jumlah`, `total`) VALUES (\'1\', \'Herschel supply\', \'L\', \'Hitam\', \'product-02.jpg\', \'P2\', \'300000\', \'1\', 300000)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `beli` (`user`, `produk`, `ukuran`, `warna`, `images`, `idpord`, `harga`, `jumlah`, `total`) VALUES (\'1\', \'Herschel supply\', \'L\', \'Hitam\', \'product-02.jpg\', \'P2\', \'300000\', \'1\', 300000)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `beli` (`user`, `produk`, `ukuran`, `warna`, `images`, `idpord`, `harga`, `jumlah`, `total`) VALUES (:user:, :produk:, :ukuran:, :warna:, :images:, :idpord:, :harga:, :jumlah:, :total:)', [...], false)
+ 4 APPPATH\Models\keranjang.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Coba.php(102): App\Models\keranjang->savebeli([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->beli()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-10 13:21:20 --> [Caused by] mysqli_sql_exception: Unknown column 'idpord' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `beli` (`user`, `produk`, `ukuran`, `warna`, `images`, `idpord`, `harga`, `jumlah`, `total`) VALUES (\'1\', \'Herschel supply\', \'L\', \'Hitam\', \'product-02.jpg\', \'P2\', \'300000\', \'1\', 300000)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `beli` (`user`, `produk`, `ukuran`, `warna`, `images`, `idpord`, `harga`, `jumlah`, `total`) VALUES (\'1\', \'Herschel supply\', \'L\', \'Hitam\', \'product-02.jpg\', \'P2\', \'300000\', \'1\', 300000)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `beli` (`user`, `produk`, `ukuran`, `warna`, `images`, `idpord`, `harga`, `jumlah`, `total`) VALUES (\'1\', \'Herschel supply\', \'L\', \'Hitam\', \'product-02.jpg\', \'P2\', \'300000\', \'1\', 300000)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `beli` (`user`, `produk`, `ukuran`, `warna`, `images`, `idpord`, `harga`, `jumlah`, `total`) VALUES (:user:, :produk:, :ukuran:, :warna:, :images:, :idpord:, :harga:, :jumlah:, :total:)', [...], false)
+ 5 APPPATH\Models\keranjang.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Coba.php(102): App\Models\keranjang->savebeli([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->beli()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
