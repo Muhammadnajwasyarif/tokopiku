@@ -1,0 +1,858 @@
+INFO - 2024-11-02 08:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 08:20:33 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\AuthController/login"
+[Method: GET, Route: login]
+in SYSTEMPATH\Router\Router.php on line 492.
+ 1 SYSTEMPATH\Router\Router.php(492): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\AuthController/login')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->checkRoutes('login')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('login')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 08:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 09:08:08 --> ErrorException: Undefined variable $reservedRoutes
+[Method: GET, Route: logout]
+in APPPATH\Config\Routes.php on line 21.
+ 1 APPPATH\Config\Routes.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reservedRoutes', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Config\\Routes.php', 21)
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+CRITICAL - 2024-11-02 09:08:09 --> ErrorException: Undefined variable $reservedRoutes
+[Method: GET, Route: logout]
+in APPPATH\Config\Routes.php on line 21.
+ 1 APPPATH\Config\Routes.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reservedRoutes', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Config\\Routes.php', 21)
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 09:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 09:20:06 --> Error: Call to a member function getRow() on array
+[Method: GET, Route: usere]
+in APPPATH\Controllers\Coba.php on line 221.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2('')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+CRITICAL - 2024-11-02 09:44:42 --> Error: Call to a member function getRow() on array
+[Method: GET, Route: usere]
+in APPPATH\Controllers\Coba.php on line 221.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2('')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 09:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 09:47:00 --> TypeError: view(): Argument #3 ($options) must be of type array, string given, called in C:\xampp\htdocs\ecommerce - Copy - Copy\app\Controllers\Coba.php on line 223
+[Method: GET, Route: usere]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\Coba.php(223): view('usere', [...], '')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 09:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 09:47:30 --> TypeError: view(): Argument #3 ($options) must be of type array, string given, called in C:\xampp\htdocs\ecommerce - Copy - Copy\app\Controllers\Coba.php on line 223
+[Method: GET, Route: usere]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\Coba.php(223): view('usere', [...], '')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 09:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 09:57:50 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: usere]
+in APPPATH\Views\usere.php on line 78.
+ 1 APPPATH\Views\usere.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php', 78)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usere', [], true)
+ 5 APPPATH\Controllers\Coba.php(223): view('usere', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2('')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+CRITICAL - 2024-11-02 09:58:13 --> ErrorException: Undefined global variable $_SESSION
+[Method: GET, Route: usere]
+in APPPATH\Views\usere.php on line 78.
+ 1 APPPATH\Views\usere.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php', 78)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usere', [], true)
+ 5 APPPATH\Controllers\Coba.php(223): view('usere', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2('')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 09:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 09:58:36 --> ErrorException: Undefined global variable $_SESSION
+[Method: GET, Route: usere]
+in APPPATH\Views\usere.php on line 78.
+ 1 APPPATH\Views\usere.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php', 78)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usere', [], true)
+ 5 APPPATH\Controllers\Coba.php(223): view('usere', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2('')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 10:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 10:00:45 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: usere]
+in APPPATH\Views\usere.php on line 78.
+ 1 APPPATH\Views\usere.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php', 78)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usere', [], true)
+ 5 APPPATH\Controllers\Coba.php(226): view('usere', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2('')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 10:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 10:03:55 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: usere]
+in APPPATH\Controllers\Coba.php on line 227.
+ 1 APPPATH\Controllers\Coba.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Controllers\\Coba.php', 227)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 10:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 10:03:59 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: usere]
+in APPPATH\Controllers\Coba.php on line 227.
+ 1 APPPATH\Controllers\Coba.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Controllers\\Coba.php', 227)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 10:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 10:05:10 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: usere]
+in APPPATH\Controllers\Coba.php on line 227.
+ 1 APPPATH\Controllers\Coba.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Controllers\\Coba.php', 227)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 10:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 10:05:21 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: usere]
+in APPPATH\Controllers\Coba.php on line 227.
+ 1 APPPATH\Controllers\Coba.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Controllers\\Coba.php', 227)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 10:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 10:05:42 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: usere]
+in APPPATH\Controllers\Coba.php on line 227.
+ 1 APPPATH\Controllers\Coba.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Controllers\\Coba.php', 227)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 10:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 10:06:03 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: usere]
+in APPPATH\Views\usere.php on line 78.
+ 1 APPPATH\Views\usere.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php', 78)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usere', [], true)
+ 5 APPPATH\Controllers\Coba.php(227): view('usere', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2('')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 10:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 10:08:44 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: login]
+in VENDORPATH\myth\auth\src\Controllers\AuthController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 10:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 10:11:15 --> ErrorException: Attempt to read property "id" on null
+[Method: POST, Route: login]
+in VENDORPATH\myth\auth\src\Controllers\AuthController.php on line 88.
+ 1 VENDORPATH\myth\auth\src\Controllers\AuthController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\vendor\\myth\\auth\\src\\Controllers\\AuthController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 10:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 10:11:37 --> ErrorException: Attempt to read property "id" on null
+[Method: POST, Route: login]
+in VENDORPATH\myth\auth\src\Controllers\AuthController.php on line 88.
+ 1 VENDORPATH\myth\auth\src\Controllers\AuthController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\vendor\\myth\\auth\\src\\Controllers\\AuthController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 10:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 10:12:19 --> ErrorException: Attempt to read property "id" on bool
+[Method: POST, Route: login]
+in VENDORPATH\myth\auth\src\Controllers\AuthController.php on line 88.
+ 1 VENDORPATH\myth\auth\src\Controllers\AuthController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on bool', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\vendor\\myth\\auth\\src\\Controllers\\AuthController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 10:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 10:12:35 --> ErrorException: Attempt to read property "id" on bool
+[Method: POST, Route: login]
+in VENDORPATH\myth\auth\src\Controllers\AuthController.php on line 88.
+ 1 VENDORPATH\myth\auth\src\Controllers\AuthController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on bool', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\vendor\\myth\\auth\\src\\Controllers\\AuthController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 10:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 10:18:18 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: usere]
+in APPPATH\Views\usere.php on line 78.
+ 1 APPPATH\Views\usere.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php', 78)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usere', [], true)
+ 5 APPPATH\Controllers\Coba.php(227): view('usere', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2('')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 10:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 10:19:38 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: usere]
+in APPPATH\Views\usere.php on line 78.
+ 1 APPPATH\Views\usere.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php', 78)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usere', [], true)
+ 5 APPPATH\Controllers\Coba.php(227): view('usere', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2('')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 10:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 10:23:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: usere]
+in APPPATH\Views\usere.php on line 78.
+ 1 APPPATH\Views\usere.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php', 78)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usere', [], true)
+ 5 APPPATH\Controllers\Coba.php(227): view('usere', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2('')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 10:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 10:46:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "backend/examples/dashboard.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/examples/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/examples/dashboard', [], true)
+ 3 APPPATH\Controllers\DashboardAdmin.php(9): view('backend/examples/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAdmin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAdmin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+CRITICAL - 2024-11-02 10:46:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "backend/examples/dashboard.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/examples/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/examples/dashboard', [], true)
+ 3 APPPATH\Controllers\DashboardAdmin.php(9): view('backend/examples/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAdmin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAdmin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+CRITICAL - 2024-11-02 10:47:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "backend/examples/dashboard.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/examples/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/examples/dashboard', [], true)
+ 3 APPPATH\Controllers\DashboardAdmin.php(9): view('backend/examples/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAdmin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAdmin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+CRITICAL - 2024-11-02 10:47:09 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "backend/examples/dashboard.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/examples/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/examples/dashboard', [], true)
+ 3 APPPATH\Controllers\DashboardAdmin.php(9): view('backend/examples/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAdmin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAdmin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+CRITICAL - 2024-11-02 10:47:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "backend/examples/dashboard.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/examples/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/examples/dashboard', [], true)
+ 3 APPPATH\Controllers\DashboardAdmin.php(9): view('backend/examples/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAdmin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAdmin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+CRITICAL - 2024-11-02 11:07:43 --> ErrorException: Undefined variable $no
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\coza\backend\examples\produk.php on line 191.
+ 1 APPPATH\Views\coza\backend\examples\produk.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\coza\\backend\\examples\\produk.php', 191)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\coza\\backend\\examples\\produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('coza/backend/examples/produk', [], true)
+ 5 APPPATH\Controllers\DashboardAdmin.php(9): view('coza/backend/examples/produk')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAdmin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 11:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 11:56:13 --> ErrorException: Undefined variable $username
+[Method: GET, Route: usere]
+in APPPATH\Views\usere.php on line 78.
+ 1 APPPATH\Views\usere.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php', 78)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usere', [], true)
+ 5 APPPATH\Controllers\Coba.php(227): view('usere', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2('')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 11:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 11:56:13 --> ErrorException: Undefined variable $username
+[Method: GET, Route: usere]
+in APPPATH\Views\usere.php on line 78.
+ 1 APPPATH\Views\usere.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php', 78)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usere', [], true)
+ 5 APPPATH\Controllers\Coba.php(227): view('usere', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2('')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 11:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 11:58:10 --> ErrorException: Undefined variable $username
+[Method: GET, Route: usere]
+in APPPATH\Views\usere.php on line 78.
+ 1 APPPATH\Views\usere.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php', 78)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usere', [], true)
+ 5 APPPATH\Controllers\Coba.php(227): view('usere', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2('')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 11:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 11:58:11 --> ErrorException: Undefined variable $username
+[Method: GET, Route: usere]
+in APPPATH\Views\usere.php on line 78.
+ 1 APPPATH\Views\usere.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php', 78)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usere', [], true)
+ 5 APPPATH\Controllers\Coba.php(227): view('usere', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2('')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 11:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 11:58:12 --> ErrorException: Undefined variable $username
+[Method: GET, Route: usere]
+in APPPATH\Views\usere.php on line 78.
+ 1 APPPATH\Views\usere.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php', 78)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usere', [], true)
+ 5 APPPATH\Controllers\Coba.php(227): view('usere', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2('')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 12:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 12:10:34 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: usere]
+in APPPATH\Views\usere.php on line 78.
+ 1 APPPATH\Views\usere.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php', 78)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usere', [], true)
+ 5 APPPATH\Controllers\Coba.php(228): view('usere', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2(null)
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 12:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 12:14:18 --> ErrorException: Attempt to read property "id" on null
+[Method: POST, Route: login]
+in VENDORPATH\myth\auth\src\Controllers\AuthController.php on line 88.
+ 1 VENDORPATH\myth\auth\src\Controllers\AuthController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\vendor\\myth\\auth\\src\\Controllers\\AuthController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 12:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 12:17:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: usere]
+in APPPATH\Views\usere.php on line 78.
+ 1 APPPATH\Views\usere.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php', 78)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usere', [], true)
+ 5 APPPATH\Controllers\Coba.php(228): view('usere', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2(null)
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 12:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 12:17:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: usere]
+in APPPATH\Views\usere.php on line 78.
+ 1 APPPATH\Views\usere.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php', 78)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usere', [], true)
+ 5 APPPATH\Controllers\Coba.php(228): view('usere', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2(null)
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 12:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 12:37:23 --> ErrorException: Undefined array key "fullname"
+[Method: GET, Route: usere]
+in APPPATH\Views\usere.php on line 87.
+ 1 APPPATH\Views\usere.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fullname"', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php', 87)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usere', [], true)
+ 5 APPPATH\Controllers\Coba.php(228): view('usere', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2(null)
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 12:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 12:40:34 --> ErrorException: Undefined array key "fullname"
+[Method: GET, Route: usere]
+in APPPATH\Views\usere.php on line 87.
+ 1 APPPATH\Views\usere.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fullname"', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php', 87)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usere', [], true)
+ 5 APPPATH\Controllers\Coba.php(228): view('usere', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2(null)
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 12:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 12:40:34 --> ErrorException: Undefined array key "fullname"
+[Method: GET, Route: usere]
+in APPPATH\Views\usere.php on line 87.
+ 1 APPPATH\Views\usere.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fullname"', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php', 87)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\usere.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('usere', [], true)
+ 5 APPPATH\Controllers\Coba.php(228): view('usere', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user2(null)
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-11-02 12:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

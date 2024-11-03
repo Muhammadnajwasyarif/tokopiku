@@ -1,0 +1,1387 @@
+CRITICAL - 2024-10-07 02:59:58 --> ErrorException: Undefined variable $conn
+[Method: GET, Route: /]
+in APPPATH\Views\Halo.php on line 121.
+ 1 APPPATH\Views\Halo.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php', 121)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Halo', [], true)
+ 5 APPPATH\Controllers\Coba.php(11): view('Halo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 03:11:18 --> Error: Class "App\Controllers\produkmodel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Coba.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 03:11:19 --> Error: Class "App\Controllers\produkmodel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Coba.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 03:12:52 --> Error: Class "App\Controllers\produkmodel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Coba.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 03:12:54 --> Error: Class "App\Controllers\produkmodel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Coba.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 03:12:54 --> Error: Class "App\Controllers\produkmodel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Coba.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 03:12:55 --> Error: Class "App\Controllers\produkmodel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Coba.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 03:12:55 --> Error: Class "App\Controllers\produkmodel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Coba.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 03:13:28 --> ErrorException: Undefined variable $conn
+[Method: GET, Route: /]
+in APPPATH\Views\Halo.php on line 121.
+ 1 APPPATH\Views\Halo.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php', 121)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Halo', [], true)
+ 5 APPPATH\Controllers\Coba.php(14): view('Halo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 03:14:32 --> ErrorException: Undefined variable $conn
+[Method: GET, Route: /]
+in APPPATH\Views\Halo.php on line 254.
+ 1 APPPATH\Views\Halo.php(254): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php', 254)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Halo', [], true)
+ 5 APPPATH\Controllers\Coba.php(14): view('Halo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 03:15:18 --> ErrorException: Undefined array key "images"
+[Method: GET, Route: /]
+in APPPATH\Views\Halo.php on line 258.
+ 1 APPPATH\Views\Halo.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php', 258)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Halo', [], true)
+ 5 APPPATH\Controllers\Coba.php(14): view('Halo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 03:15:19 --> ErrorException: Undefined array key "images"
+[Method: GET, Route: /]
+in APPPATH\Views\Halo.php on line 258.
+ 1 APPPATH\Views\Halo.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php', 258)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Halo', [], true)
+ 5 APPPATH\Controllers\Coba.php(14): view('Halo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 03:16:43 --> ErrorException: Undefined array key "images"
+[Method: GET, Route: /]
+in APPPATH\Views\Halo.php on line 258.
+ 1 APPPATH\Views\Halo.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php', 258)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Halo', [], true)
+ 5 APPPATH\Controllers\Coba.php(14): view('Halo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 03:16:44 --> ErrorException: Undefined array key "images"
+[Method: GET, Route: /]
+in APPPATH\Views\Halo.php on line 258.
+ 1 APPPATH\Views\Halo.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php', 258)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Halo', [], true)
+ 5 APPPATH\Controllers\Coba.php(14): view('Halo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 03:16:44 --> ErrorException: Undefined array key "images"
+[Method: GET, Route: /]
+in APPPATH\Views\Halo.php on line 258.
+ 1 APPPATH\Views\Halo.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php', 258)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Halo', [], true)
+ 5 APPPATH\Controllers\Coba.php(14): view('Halo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 03:18:03 --> ErrorException: Undefined variable $getBarang
+[Method: GET, Route: /]
+in APPPATH\Views\Halo.php on line 671.
+ 1 APPPATH\Views\Halo.php(671): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getBarang', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php', 671)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Halo', [], true)
+ 5 APPPATH\Controllers\Coba.php(14): view('Halo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 03:18:05 --> ErrorException: Undefined variable $getBarang
+[Method: GET, Route: /]
+in APPPATH\Views\Halo.php on line 671.
+ 1 APPPATH\Views\Halo.php(671): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getBarang', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php', 671)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Halo', [], true)
+ 5 APPPATH\Controllers\Coba.php(14): view('Halo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 03:18:33 --> ErrorException: Undefined variable $getBarang
+[Method: GET, Route: /]
+in APPPATH\Views\Halo.php on line 671.
+ 1 APPPATH\Views\Halo.php(671): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getBarang', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php', 671)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Halo', [], true)
+ 5 APPPATH\Controllers\Coba.php(14): view('Halo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 03:18:34 --> ErrorException: Undefined variable $getBarang
+[Method: GET, Route: /]
+in APPPATH\Views\Halo.php on line 671.
+ 1 APPPATH\Views\Halo.php(671): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getBarang', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php', 671)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Halo', [], true)
+ 5 APPPATH\Controllers\Coba.php(14): view('Halo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 03:18:34 --> ErrorException: Undefined variable $getBarang
+[Method: GET, Route: /]
+in APPPATH\Views\Halo.php on line 671.
+ 1 APPPATH\Views\Halo.php(671): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getBarang', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php', 671)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Halo', [], true)
+ 5 APPPATH\Controllers\Coba.php(14): view('Halo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 03:18:35 --> ErrorException: Undefined variable $getBarang
+[Method: GET, Route: /]
+in APPPATH\Views\Halo.php on line 671.
+ 1 APPPATH\Views\Halo.php(671): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getBarang', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php', 671)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Halo', [], true)
+ 5 APPPATH\Controllers\Coba.php(14): view('Halo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 03:18:51 --> ErrorException: Undefined variable $getBarang
+[Method: GET, Route: /]
+in APPPATH\Views\Halo.php on line 670.
+ 1 APPPATH\Views\Halo.php(670): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getBarang', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php', 670)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Halo', [], true)
+ 5 APPPATH\Controllers\Coba.php(14): view('Halo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 03:54:41 --> ErrorException: Undefined variable $conn
+[Method: GET, Route: detailproduk/7]
+in APPPATH\Views\detailprod.php on line 121.
+ 1 APPPATH\Views\detailprod.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\detailprod.php', 121)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\detailprod.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('detailprod', [], true)
+ 5 APPPATH\Controllers\Coba.php(24): view('detailprod', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->edit('7')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 03:55:07 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: detailproduk/7]
+in APPPATH\Views\detailprod.php on line 280.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('detailprod', [], true)
+ 4 APPPATH\Controllers\Coba.php(24): view('detailprod', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->edit('7')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 03:56:59 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: detailproduk/7]
+in APPPATH\Views\detailprod.php on line 369.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('detailprod', [], true)
+ 4 APPPATH\Controllers\Coba.php(24): view('detailprod', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->edit('7')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 04:25:32 --> BadMethodCallException: Call to undefined method App\Models\produkkeranjang::getKeranjang
+[Method: GET, Route: /]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Coba.php(16): CodeIgniter\Model->__call('getKeranjang', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 04:40:28 --> Error: Class "App\Controllers\produkkeranjang" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Coba.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 04:40:30 --> Error: Class "App\Controllers\produkkeranjang" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Coba.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 04:40:47 --> ParseError: syntax error, unexpected token ";", expecting ")"
+[Method: GET, Route: /]
+in APPPATH\Controllers\Coba.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ecommerce\\app\\Controllers\\Coba.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Coba')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Coba')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Coba', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 04:46:48 --> ErrorException: Undefined variable $total
+[Method: GET, Route: /]
+in APPPATH\Views\Halo.php on line 121.
+ 1 APPPATH\Views\Halo.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php', 121)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Halo', [], true)
+ 5 APPPATH\Controllers\Coba.php(15): view('Halo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 04:46:49 --> ErrorException: Undefined variable $total
+[Method: GET, Route: /]
+in APPPATH\Views\Halo.php on line 121.
+ 1 APPPATH\Views\Halo.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php', 121)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\Halo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Halo', [], true)
+ 5 APPPATH\Controllers\Coba.php(15): view('Halo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 05:22:52 --> ParseError: syntax error, unexpected token "endforeach"
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 687.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 3 APPPATH\Controllers\Coba.php(29): view('fitur', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 05:23:16 --> ErrorException: Undefined variable $conn
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 120.
+ 1 APPPATH\Views\fitur.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 120)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(29): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 05:24:14 --> ErrorException: Undefined variable $conn
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 147.
+ 1 APPPATH\Views\fitur.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 147)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(29): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 05:24:15 --> ErrorException: Undefined variable $conn
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 147.
+ 1 APPPATH\Views\fitur.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 147)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(29): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 05:24:41 --> ErrorException: Undefined variable $conn
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 287.
+ 1 APPPATH\Views\fitur.php(287): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 287)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(29): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 05:24:43 --> ErrorException: Undefined variable $conn
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 287.
+ 1 APPPATH\Views\fitur.php(287): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 287)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(29): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 05:26:37 --> ErrorException: Undefined variable $conn
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(29): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 05:26:39 --> ErrorException: Undefined variable $conn
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(29): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 05:31:11 --> ErrorException: Undefined variable $conn
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 362.
+ 1 APPPATH\Views\fitur.php(362): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 362)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(29): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 05:31:13 --> ErrorException: Undefined variable $conn
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 362.
+ 1 APPPATH\Views\fitur.php(362): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 362)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(29): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 05:31:14 --> ErrorException: Undefined variable $conn
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 362.
+ 1 APPPATH\Views\fitur.php(362): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 362)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(29): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 05:31:45 --> ErrorException: Undefined array key "gambar"
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 623.
+ 1 APPPATH\Views\fitur.php(623): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gambar"', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 623)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(29): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 05:31:46 --> ErrorException: Undefined array key "gambar"
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 623.
+ 1 APPPATH\Views\fitur.php(623): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gambar"', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 623)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(29): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 05:32:38 --> ErrorException: Undefined variable $getProduk
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 617.
+ 1 APPPATH\Views\fitur.php(617): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getProduk', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 617)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(29): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 12:38:49 --> Error: Class "App\Controllers\login" not found
+[Method: GET, Route: login]
+in APPPATH\Controllers\Coba.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 12:39:33 --> ErrorException: ini_set(): Session ini settings cannot be changed when a session is active
+[Method: GET, Route: login]
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed when a session is active', 'C:\\xampp\\htdocs\\ecommerce\\system\\Session\\Handlers\\FileHandler.php', 74)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(74): ini_set('session.save_path', 'C:\\xampp\\htdocs\\ecommerce\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(697): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\Session), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 5 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 SYSTEMPATH\Common.php(998): CodeIgniter\Config\BaseService::get('session')
+10 SYSTEMPATH\Common.php(971): service('session')
+11 SYSTEMPATH\CodeIgniter.php(1062): session()
+12 SYSTEMPATH\CodeIgniter.php(542): CodeIgniter\CodeIgniter->storePreviousURL(Object(CodeIgniter\HTTP\SiteURI))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 12:57:09 --> ParseError: syntax error, unexpected token "=>", expecting "]"
+[Method: GET, Route: /]
+in APPPATH\Controllers\Coba.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ecommerce\\app\\Controllers\\Coba.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Coba')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Coba')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Coba', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:06:11 --> ErrorException: Undefined variable $conn
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 261.
+ 1 APPPATH\Views\index.php(261): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\index.php', 261)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Coba.php(20): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:06:16 --> ErrorException: Undefined variable $conn
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 261.
+ 1 APPPATH\Views\index.php(261): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\index.php', 261)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Coba.php(20): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:06:59 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: fitur]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(922): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Coba.php(33): CodeIgniter\Model->__call('getKeranjang', [])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:12:04 --> ErrorException: Undefined variable $getKeranjang
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 259.
+ 1 APPPATH\Views\index.php(259): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getKeranjang', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\index.php', 259)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Coba.php(20): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:13:20 --> ErrorException: Undefined variable $getKeranjang
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 259.
+ 1 APPPATH\Views\index.php(259): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getKeranjang', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\index.php', 259)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Coba.php(20): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:13:55 --> BadMethodCallException: Call to undefined method App\Models\produkmodel::getKeranjang
+[Method: GET, Route: /]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Coba.php(18): CodeIgniter\Model->__call('getKeranjang', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:13:58 --> BadMethodCallException: Call to undefined method App\Models\produkmodel::getKeranjang
+[Method: GET, Route: /]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Coba.php(18): CodeIgniter\Model->__call('getKeranjang', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:20:25 --> BadMethodCallException: Call to undefined method App\Models\keranjang::total
+[Method: GET, Route: /]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Coba.php(19): CodeIgniter\Model->__call('total', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:20:42 --> ErrorException: Undefined variable $total
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 116.
+ 1 APPPATH\Views\index.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\index.php', 116)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Coba.php(22): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:21:15 --> ErrorException: Undefined variable $total
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 116.
+ 1 APPPATH\Views\index.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\index.php', 116)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Coba.php(22): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:21:16 --> ErrorException: Undefined variable $total
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 116.
+ 1 APPPATH\Views\index.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\index.php', 116)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Coba.php(22): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:21:17 --> ErrorException: Undefined variable $total
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 116.
+ 1 APPPATH\Views\index.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\index.php', 116)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Coba.php(22): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:29:35 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(37): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:38:17 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(37): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:38:18 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(37): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:38:54 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(37): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:38:55 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(37): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:43:33 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(37): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:43:34 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(37): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:43:35 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(37): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:48:49 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(37): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:49:55 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(37): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:51:06 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(37): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:51:07 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(37): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:51:46 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(37): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:51:47 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(37): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:51:47 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(37): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:52:44 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(36): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:52:45 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(36): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:53:37 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(36): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 13:53:48 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(36): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 14:05:34 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(36): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 14:05:36 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(36): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 14:10:49 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(37): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 14:10:50 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(37): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 14:10:51 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(37): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 14:10:52 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(37): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 14:11:00 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(37): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 14:11:01 --> ErrorException: Undefined variable $total
+[Method: GET, Route: fitur]
+in APPPATH\Views\fitur.php on line 357.
+ 1 APPPATH\Views\fitur.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php', 357)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\fitur.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fitur', [], true)
+ 5 APPPATH\Controllers\Coba.php(37): view('fitur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->fitur()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 14:37:27 --> ErrorException: Undefined property: stdClass::$nama
+[Method: GET, Route: updateproduk/86]
+in APPPATH\Controllers\Coba.php on line 80.
+ 1 APPPATH\Controllers\Coba.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama', 'C:\\xampp\\htdocs\\ecommerce\\app\\Controllers\\Coba.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->update('86')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 14:37:48 --> ErrorException: Undefined variable $produk
+[Method: GET, Route: updateproduk/86]
+in APPPATH\Views\updateproduk.php on line 280.
+ 1 APPPATH\Views\updateproduk.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\updateproduk.php', 280)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\updateproduk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('updateproduk', [], true)
+ 5 APPPATH\Controllers\Coba.php(81): view('updateproduk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->update('86')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 14:38:42 --> ErrorException: Undefined variable $produk
+[Method: GET, Route: updateproduk/86]
+in APPPATH\Views\updateproduk.php on line 280.
+ 1 APPPATH\Views\updateproduk.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\updateproduk.php', 280)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\updateproduk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('updateproduk', [], true)
+ 5 APPPATH\Controllers\Coba.php(81): view('updateproduk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->update('86')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 14:38:43 --> ErrorException: Undefined variable $produk
+[Method: GET, Route: updateproduk/86]
+in APPPATH\Views\updateproduk.php on line 280.
+ 1 APPPATH\Views\updateproduk.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\updateproduk.php', 280)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\updateproduk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('updateproduk', [], true)
+ 5 APPPATH\Controllers\Coba.php(81): view('updateproduk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->update('86')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 14:44:15 --> ErrorException: Undefined variable $getProduk
+[Method: GET, Route: updateproduk/86]
+in APPPATH\Controllers\Coba.php on line 79.
+ 1 APPPATH\Controllers\Coba.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getProduk', 'C:\\xampp\\htdocs\\ecommerce\\app\\Controllers\\Coba.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->update('86')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 14:44:16 --> ErrorException: Undefined variable $getProduk
+[Method: GET, Route: updateproduk/86]
+in APPPATH\Controllers\Coba.php on line 79.
+ 1 APPPATH\Controllers\Coba.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getProduk', 'C:\\xampp\\htdocs\\ecommerce\\app\\Controllers\\Coba.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->update('86')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 14:44:44 --> ErrorException: Undefined variable $produk
+[Method: GET, Route: updateproduk/86]
+in APPPATH\Views\updateproduk.php on line 282.
+ 1 APPPATH\Views\updateproduk.php(282): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\updateproduk.php', 282)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\updateproduk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('updateproduk', [], true)
+ 5 APPPATH\Controllers\Coba.php(81): view('updateproduk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->update('86')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 14:45:27 --> ErrorException: Undefined variable $produk
+[Method: GET, Route: updateproduk/86]
+in APPPATH\Views\updateproduk.php on line 318.
+ 1 APPPATH\Views\updateproduk.php(318): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\updateproduk.php', 318)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\updateproduk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('updateproduk', [], true)
+ 5 APPPATH\Controllers\Coba.php(81): view('updateproduk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->update('86')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 14:45:29 --> ErrorException: Undefined variable $produk
+[Method: GET, Route: updateproduk/86]
+in APPPATH\Views\updateproduk.php on line 318.
+ 1 APPPATH\Views\updateproduk.php(318): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\updateproduk.php', 318)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\updateproduk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('updateproduk', [], true)
+ 5 APPPATH\Controllers\Coba.php(81): view('updateproduk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->update('86')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 14:45:57 --> ErrorException: Undefined variable $produk
+[Method: GET, Route: updateproduk/86]
+in APPPATH\Views\updateproduk.php on line 375.
+ 1 APPPATH\Views\updateproduk.php(375): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\updateproduk.php', 375)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\updateproduk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('updateproduk', [], true)
+ 5 APPPATH\Controllers\Coba.php(81): view('updateproduk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->update('86')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')
+CRITICAL - 2024-10-07 14:45:59 --> ErrorException: Undefined variable $produk
+[Method: GET, Route: updateproduk/86]
+in APPPATH\Views\updateproduk.php on line 375.
+ 1 APPPATH\Views\updateproduk.php(375): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'C:\\xampp\\htdocs\\ecommerce\\app\\Views\\updateproduk.php', 375)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce\\app\\Views\\updateproduk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('updateproduk', [], true)
+ 5 APPPATH\Controllers\Coba.php(81): view('updateproduk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->update('86')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce\\public\\index.php')

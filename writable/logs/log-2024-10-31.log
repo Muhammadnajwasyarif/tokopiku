@@ -1,0 +1,107 @@
+INFO - 2024-10-31 07:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 07:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 07:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 07:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 07:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-31 07:35:39 --> ParseError: Unclosed '{' on line 59
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 1182.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Coba.php(24): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+CRITICAL - 2024-10-31 07:36:17 --> ErrorException: Undefined variable $getUser
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 59.
+ 1 APPPATH\Views\index.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getUser', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\index.php', 59)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Coba.php(24): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+CRITICAL - 2024-10-31 07:36:19 --> ErrorException: Undefined variable $getUser
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 59.
+ 1 APPPATH\Views\index.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getUser', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\index.php', 59)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Coba.php(24): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+CRITICAL - 2024-10-31 07:36:26 --> ErrorException: Undefined variable $getUser
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 59.
+ 1 APPPATH\Views\index.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getUser', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\index.php', 59)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Coba.php(24): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+CRITICAL - 2024-10-31 07:41:57 --> ErrorException: Undefined variable $p
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 58.
+ 1 APPPATH\Views\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $p', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\index.php', 58)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Coba.php(24): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+CRITICAL - 2024-10-31 07:42:00 --> ErrorException: Undefined variable $p
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 58.
+ 1 APPPATH\Views\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $p', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\index.php', 58)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Coba.php(24): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-10-31 07:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 07:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 07:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 07:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-31 07:43:45 --> ArgumentCountError: Too few arguments to function App\Controllers\Coba::user(), 0 passed in C:\xampp\htdocs\ecommerce - Copy - Copy\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: user]
+in APPPATH\Controllers\Coba.php on line 206.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->user()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')

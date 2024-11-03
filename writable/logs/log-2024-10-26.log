@@ -1,0 +1,118 @@
+INFO - 2024-10-26 03:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 03:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 03:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 03:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 03:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 03:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-26 03:39:08 --> ErrorException: Could not check compatibility between Myth\Auth\Authentication\Passwords\CompositionValidator::check(string $password, ?CodeIgniter\Entity\Entity $user = null): bool and Myth\Auth\Authentication\Passwords\ValidatorInterface::check(string $password, ?CodeIgniter\Entity $user = null): bool, because class CodeIgniter\Entity is not available
+[Method: POST, Route: register]
+in VENDORPATH\myth\auth\src\Authentication\Passwords\CompositionValidator.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-10-26 03:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 03:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 03:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 03:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 03:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 03:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-26 03:46:45 --> ErrorException: Could not check compatibility between Myth\Auth\Authentication\Passwords\CompositionValidator::check(string $password, ?object $user = null): bool and Myth\Auth\Authentication\Passwords\ValidatorInterface::check(string $password, ?CodeIgniter\Entity $user = null): bool, because class CodeIgniter\Entity is not available
+[Method: POST, Route: register]
+in VENDORPATH\myth\auth\src\Authentication\Passwords\CompositionValidator.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-10-26 03:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-26 03:51:11 --> ErrorException: Could not check compatibility between Myth\Auth\Authentication\Passwords\CompositionValidator::check(string $password, ?CodeIgniter\Entity\Entity $user = null): bool and Myth\Auth\Authentication\Passwords\ValidatorInterface::check(string $password, ?CodeIgniter\Entity $user = null): bool, because class CodeIgniter\Entity is not available
+[Method: POST, Route: register]
+in VENDORPATH\myth\auth\src\Authentication\Passwords\CompositionValidator.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-10-26 03:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-26 03:51:15 --> ErrorException: Could not check compatibility between Myth\Auth\Authentication\Passwords\CompositionValidator::check(string $password, ?CodeIgniter\Entity\Entity $user = null): bool and Myth\Auth\Authentication\Passwords\ValidatorInterface::check(string $password, ?CodeIgniter\Entity $user = null): bool, because class CodeIgniter\Entity is not available
+[Method: POST, Route: register]
+in VENDORPATH\myth\auth\src\Authentication\Passwords\CompositionValidator.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-10-26 11:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 11:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 11:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 11:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 11:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-26 11:42:33 --> ErrorException: Could not check compatibility between Myth\Auth\Authentication\Passwords\CompositionValidator::check(string $password, ?CodeIgniter\Entity\Entity $user = null): bool and Myth\Auth\Authentication\Passwords\ValidatorInterface::check(string $password, ?CodeIgniter\Entity $user = null): bool, because class CodeIgniter\Entity is not available
+[Method: POST, Route: register]
+in VENDORPATH\myth\auth\src\Authentication\Passwords\CompositionValidator.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-10-26 11:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-26 11:46:31 --> ErrorException: Could not check compatibility between Myth\Auth\Authentication\Passwords\CompositionValidator::check(string $password, ?object $user = null): bool and Myth\Auth\Authentication\Passwords\ValidatorInterface::check(string $password, ?CodeIgniter\Entity $user = null): bool, because class CodeIgniter\Entity is not available
+[Method: POST, Route: register]
+in VENDORPATH\myth\auth\src\Authentication\Passwords\CompositionValidator.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-10-26 11:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-26 11:47:01 --> ErrorException: Could not check compatibility between Myth\Auth\Authentication\Passwords\CompositionValidator::check(string $password, ?object $user = null): bool and Myth\Auth\Authentication\Passwords\ValidatorInterface::check(string $password, ?CodeIgniter\Entity $user = null): bool, because class CodeIgniter\Entity is not available
+[Method: POST, Route: register]
+in VENDORPATH\myth\auth\src\Authentication\Passwords\CompositionValidator.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-10-26 11:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 11:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 11:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 11:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-26 11:49:58 --> ErrorException: Could not check compatibility between Myth\Auth\Authentication\Passwords\CompositionValidator::check(string $password, ?object $user = null): bool and Myth\Auth\Authentication\Passwords\ValidatorInterface::check(string $password, ?CodeIgniter\Entity $user = null): bool, because class CodeIgniter\Entity is not available
+[Method: POST, Route: register]
+in VENDORPATH\myth\auth\src\Authentication\Passwords\CompositionValidator.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-10-26 11:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 11:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 11:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 11:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 11:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-26 11:52:34 --> ErrorException: Could not check compatibility between Myth\Auth\Authentication\Passwords\CompositionValidator::check(string $password, ?CodeIgniter\Entity\Entity $user = null): bool and Myth\Auth\Authentication\Passwords\ValidatorInterface::check(string $password, ?CodeIgniter\Entity $user = null): bool, because class CodeIgniter\Entity is not available
+[Method: POST, Route: register]
+in VENDORPATH\myth\auth\src\Authentication\Passwords\CompositionValidator.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-10-26 11:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 11:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 11:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-26 11:53:41 --> ErrorException: Could not check compatibility between Myth\Auth\Authentication\Passwords\CompositionValidator::check(string $password, ?CodeIgniter\Entity\Entity $user = null): bool and Myth\Auth\Authentication\Passwords\ValidatorInterface::check(string $password, ?CodeIgniter\Entity $user = null): bool, because class CodeIgniter\Entity is not available
+[Method: POST, Route: register]
+in VENDORPATH\myth\auth\src\Authentication\Passwords\CompositionValidator.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-10-26 11:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 11:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 11:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 11:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 11:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 11:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 11:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 11:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-26 11:58:33 --> ErrorException: Undefined property: Config\App::$cookieDomain
+[Method: POST, Route: login]
+in VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php on line 230.
+ 1 VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\App::$cookieDomain', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\vendor\\myth\\auth\\src\\Authentication\\AuthenticationBase.php', 230)
+ 2 VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php(102): Myth\Auth\Authentication\AuthenticationBase->rememberUser(6)
+ 3 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(59): Myth\Auth\Authentication\AuthenticationBase->login(Object(Myth\Auth\Entities\User), true)
+ 4 VENDORPATH\myth\auth\src\Controllers\AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt([...], true)
+ 5 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptLogin()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-10-26 11:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 11:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 12:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 12:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 12:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 12:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 18:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-26 18:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-26 18:28:24 --> ErrorException: Undefined property: Config\App::$cookieDomain
+[Method: POST, Route: login]
+in VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php on line 230.
+ 1 VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\App::$cookieDomain', 'C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\vendor\\myth\\auth\\src\\Authentication\\AuthenticationBase.php', 230)
+ 2 VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php(102): Myth\Auth\Authentication\AuthenticationBase->rememberUser(6)
+ 3 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(59): Myth\Auth\Authentication\AuthenticationBase->login(Object(Myth\Auth\Entities\User), true)
+ 4 VENDORPATH\myth\auth\src\Controllers\AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt([...], true)
+ 5 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptLogin()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ecommerce - Copy - Copy\\public\\index.php')
+INFO - 2024-10-26 18:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
